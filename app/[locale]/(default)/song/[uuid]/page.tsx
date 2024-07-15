@@ -15,7 +15,7 @@ import { formatSong } from "@/services/song";
 import { getSongInfo } from "@/services/suno";
 import { getTranslations } from "next-intl/server";
 
-export const maxDuration = 120;
+export const maxDuration = 59;
 
 export async function generateMetadata({
   params,

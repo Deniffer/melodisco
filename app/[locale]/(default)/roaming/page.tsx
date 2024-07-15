@@ -6,7 +6,7 @@ import Tab from "../_components/tab";
 import { getRandomSongs } from "@/models/song";
 import { getTranslations } from "next-intl/server";
 
-export const maxDuration = 120;
+export const maxDuration = 59;
 
 export async function generateMetadata({
   params,

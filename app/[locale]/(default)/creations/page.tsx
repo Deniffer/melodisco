@@ -8,7 +8,7 @@ import { Song } from "@/types/song";
 import { useAppContext } from "@/contexts/app";
 import { useTranslations } from "next-intl";
 
-export const maxDuration = 120;
+export const maxDuration = 59;
 
 export default function () {
   const t = useTranslations("");

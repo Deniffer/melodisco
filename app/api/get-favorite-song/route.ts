@@ -3,7 +3,7 @@ import { respData, respErr } from "@/utils/resp";
 import { findFavoriteSong } from "@/models/favorite_song";
 import { getUserUuid } from "@/services/user";
 
-export const maxDuration = 120;
+export const maxDuration = 59;
 
 export async function POST(req: Request) {
   try {

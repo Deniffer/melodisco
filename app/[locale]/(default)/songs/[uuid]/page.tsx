@@ -5,7 +5,7 @@ import { formatSong } from "@/services/song";
 import { getSongInfo } from "@/services/udio";
 import { redirect } from "next/navigation";
 
-export const maxDuration = 120;
+export const maxDuration = 59;
 
 export default async function ({ params }: { params: { uuid: string } }) {
   let song: Song | null = null;

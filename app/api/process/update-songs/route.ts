@@ -1,7 +1,7 @@
 import { getSongsFromFile, updateSongs } from "@/services/song";
 import { respData, respErr } from "@/utils/resp";
 
-export const maxDuration = 120;
+export const maxDuration = 59;
 
 export async function POST() {
   try {

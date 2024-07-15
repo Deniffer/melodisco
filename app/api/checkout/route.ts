@@ -7,7 +7,7 @@ import Stripe from "stripe";
 import { findUserByUuid } from "@/models/user";
 import { genOrderNo } from "@/utils/order";
 
-export const maxDuration = 120;
+export const maxDuration = 59;
 
 export async function POST(req: Request) {
   try {

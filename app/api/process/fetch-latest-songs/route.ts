@@ -5,7 +5,7 @@ import { Song } from "@/types/song";
 import { getLatestSongs } from "@/services/suno";
 import { getLatestSongs as getUdioLatestSongs } from "@/services/udio";
 
-export const maxDuration = 120;
+export const maxDuration = 59;
 
 export async function POST(req: Request) {
   try {

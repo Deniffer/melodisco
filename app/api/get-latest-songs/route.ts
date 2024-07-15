@@ -2,7 +2,7 @@ import { respData, respErr } from "@/utils/resp";
 
 import { getLatestSongs } from "@/models/song";
 
-export const maxDuration = 120;
+export const maxDuration = 59;
 
 export async function POST(req: Request) {
   try {

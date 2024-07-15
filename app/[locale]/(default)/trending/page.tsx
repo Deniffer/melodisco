@@ -6,7 +6,7 @@ import Tab from "../_components/tab";
 import { getTranslations } from "next-intl/server";
 import { getTrendingSongs } from "@/models/song";
 
-export const maxDuration = 120;
+export const maxDuration = 59;
 
 export async function generateMetadata({
   params,
