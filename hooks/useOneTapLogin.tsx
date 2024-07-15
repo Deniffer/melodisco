@@ -10,17 +10,17 @@ export default function () {
   const { data: session, status } = useSession();
 
   const oneTapLogin = async function () {
-    const options = {
-      client_id: process.env.NEXT_PUBLIC_GOOGLE_CLIENT_ID,
-      auto_select: false,
-      cancel_on_tap_outside: false,
-      context: "signin",
-    };
+    // const options = {
+    //   client_id: process.env.NEXT_PUBLIC_GOOGLE_CLIENT_ID,
+    //   auto_select: false,
+    //   cancel_on_tap_outside: false,
+    //   context: "signin",
+    // };
 
-    googleOneTap(options, (response: any) => {
-      console.log("onetap login ok", response);
-      handleLogin(response.credential);
-    });
+    // googleOneTap(options, (response: any) => {
+    //   console.log("onetap login ok", response);
+    //   handleLogin(response.credential);
+    // });
   };
 
   const handleLogin = async function (credentials: string) {
